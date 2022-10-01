@@ -1,5 +1,7 @@
 #![allow(nonstandard_style)]
 
 fn main() {
-    println!("Hello, world!");
+    for _x in 1..100 {
+        println!("Hello, world!");
+    }
 }
