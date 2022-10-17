@@ -7,6 +7,8 @@ fn main() {
     loop{
         let mut playAgain = String::new();
 
+        println!("Play Game? (true/false)");
+
         io::stdin().read_line(&mut playAgain).expect("Failed to read input");
 
         let playAgain: bool = playAgain.trim().parse().expect("not bool");
